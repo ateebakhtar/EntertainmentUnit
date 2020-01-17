@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.entertainmentunit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/images"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".movieinfo" />
+        <activity android:name=".showinfo" />
+        <activity android:name=".songinfo" />
+        <activity android:name=".relative" />
+        <activity android:name=".movie" />
+        <activity android:name=".song" />
+        <activity android:name=".show" />
+        <activity android:name=".login" />
+        <activity android:name=".createaccount" />
+        <activity android:name=".mainmenu" />
+        <activity android:name=".viewlogin" />
+        <activity android:name=".update" />
+        <activity android:name=".playlist" />
+        <activity android:name=".addmovie" />
+        <activity android:name=".addsong" />
+        <activity android:name=".addshow" />
+        <activity android:name=".admin" />
+    </application>
+
+</manifest>
